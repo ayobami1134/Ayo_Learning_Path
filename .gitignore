@@ -1,0 +1,18 @@
+# Ignore all files
+*
+
+# But track all files with extensions
+!*.*
+
+# But track .gitignore file itself
+!.gitignore
+
+# Ignore compiled files and object files
+*.d
+*.i
+*.o
+*.u
+*.so
+*.exe
+*.lst
+*.out
