@@ -5,13 +5,18 @@ int main() {
     short int s = 32767;
     long int aa = 15;
     float b = 20.5;
-    char c = 'A';
-    long double d = 9223372036854775808;
+    char c = '@';
+    long double d = 9223372036854775807;
+    char name[] = "Ayo's bed is \"big\".";
+
+    int v;
+    v = 100;
 
     printf("The %i value of a is %ld\n", a, aa);
     printf("The value of b is %f\n", b);
     printf("The value of b is %.2f\n", b);
     printf("The value of c is %c\n", c);
+    printf("The value of v is %d\n", v);
 
     a = 2147483649;
     aa = 9223372036854775807;
@@ -30,6 +35,10 @@ int main() {
     printf("The size of long long is %ld bytes\n", sizeof(long long));
     printf("The size of long double is %ld bytes\n", sizeof(long double));
     printf("The size of long long int is %ld bytes\n", sizeof(long long int));
+
+    printf("\nExcape Sequences\n");
+    printf("\t\tH\tello Wor\tld!\n");
+    puts(name);
 
     return 0;
 }
@@ -55,3 +64,12 @@ int main() {
 // Maximum value of long double = 2^63 - 1 = 9223372036854775807
 // 2^15 - 1 = 32767
 // Maximum value of short int = 2^15 - 1 = 32767
+
+// Variable Definition
+// int a = 10;
+
+// Variable Declaration
+// int a;
+
+// Variable Initialization
+// a = 10;
