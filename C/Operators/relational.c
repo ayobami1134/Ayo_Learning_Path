@@ -10,6 +10,13 @@ int main() {
         printf("Line 1 - a is not equal to b\n");
     }
 
+    // not equal to
+    if (a != b) {
+        printf("Line 1 - a is not equal to b\n");
+    } else {
+        printf("Line 1 - a is equal to b\n");
+    }
+    
     if (a < b) {
         printf("Line 2 - a is less than b\n");
     } else {
