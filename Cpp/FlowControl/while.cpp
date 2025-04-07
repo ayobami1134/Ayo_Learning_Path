@@ -1,15 +1,15 @@
 #include <iostream>
-
+using namespace std;
 int main() {
     int a = 100;
     int b = 3;
 
-    std::cout << "Multiples of 3: ";
+    cout << "Multiples of 3: ";
     while (b < a) {
-        std::cout << b << " ";
+        cout << b << " ";
         b += 3;
     }
-    std::cout << std::endl;
+    cout << endl;
 
     return 0;
 }
