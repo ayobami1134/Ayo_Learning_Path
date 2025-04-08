@@ -1,14 +1,18 @@
 #include <iostream>
+
 using namespace std;
 
-int main() {
+int main()
+{
     float num, avg, sum = 0;
     int count = 0;
 
-    while (true) {
+    while (true)
+    {
         cout << "Enter a number: ";
         cin >> num;
-        if (num < 0) {
+        if (num < 0)
+        {
             goto pos1;
         }
         sum += num;
@@ -16,11 +20,14 @@ int main() {
     }
 
 pos1:
-    if (count > 0) {
+    if (count > 0)
+    {
         avg = sum / count;
         cout << "Average of entered numbers: " << avg << endl;
         cout << "Sum of entered numbers: " << sum << endl;
-    } else {
+    }
+    else
+    {
         cout << "No positive numbers were entered." << endl;
     }
 

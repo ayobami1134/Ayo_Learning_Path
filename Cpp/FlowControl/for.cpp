@@ -1,10 +1,14 @@
 #include <iostream>
+
 using namespace std;
-int main() {
+
+int main()
+{
     int num = 100;
     int sum = 0;
 
-    for (int i = num; i > 25; i--) {
+    for (int i = num; i > 25; i--)
+    {
         sum += i;
     }
 
